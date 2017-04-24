@@ -37,6 +37,8 @@ class HomeController extends Controller
 
     public function jordan()
     {
+        $jordan_variable  = "Hello!";
+
         return view('jordan');
     }
 }
